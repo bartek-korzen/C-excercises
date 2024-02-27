@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void Zad_4() {
     for (int i = 1; i <= 200; i++) {
         if (i % 5 == 0 && i % 7 == 0) {
             printf("FooBar\n");
@@ -12,5 +12,13 @@ int main() {
             printf("%d\n", i);
         }
     }
-    return 0;
+}
+
+int main()
+{
+
+Zad_4();
+
+return 0;
+
 }
