@@ -15,11 +15,19 @@ void count_factorial(int array[], int n) {
     }
 }
 
-int main() {
+void Zad_3() {
     int array[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     int n = sizeof(array) / sizeof(array[0]);
 
     count_factorial(array, n);
 
-    return 0;
+}
+
+int main()
+{
+
+Zad_3();
+
+return 0;
+
 }

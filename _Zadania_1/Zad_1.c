@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void Zad_1()
 {
     
     char imie[50];
@@ -10,6 +10,14 @@ int main()
     scanf("%s",imie);
     
     printf("Witaj, %s!", imie);
+   
+}
 
-    return 0;
+int main()
+{
+
+Zad_1();
+
+return 0;
+
 }

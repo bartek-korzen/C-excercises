@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void Zad_2()
 {
     
     int sum_mat,sum_phy;
@@ -23,5 +23,13 @@ int main()
     
     printf("Średnia ocen z matematyki wynosi: %f, Średnia ocen z fizyki wynosi: %f", avg_mat, avg_phy);
 
-    return 0;
+}
+
+int main()
+{
+
+Zad_2();
+
+return 0;
+
 }

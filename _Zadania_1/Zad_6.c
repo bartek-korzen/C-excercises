@@ -22,7 +22,7 @@ char* nazwa_ruchu(int ruch) {
     }
 }
 
-int main() {
+void Zad_6() {
     int wyniki[100]; // Tablica przechowująca wyniki rund (1 - wygrana, 0 - remis, -1 - przegrana)
     char ruchy[100][20]; // Tablica przechowująca ruchy gracza w danych rundach
     int rundy = 0; 
@@ -69,6 +69,13 @@ int main() {
             }
         }
     }
+}
 
-    return 0;
+int main()
+{
+
+Zad_6();
+
+return 0;
+
 }
