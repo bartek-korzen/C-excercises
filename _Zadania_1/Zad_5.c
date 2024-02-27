@@ -12,13 +12,21 @@ int sumOfMultiples(int number) {
     return sum;
 }
 
-int main() {
+void Zad_5() {
     int number;
     printf("Podaj liczbe: ");
     scanf("%d", &number);
 
     int result = sumOfMultiples(number);
     printf("Suma wszystkich wielokrotnosci 3 lub 5 poniżej %d wynosi: %d\n", number, result);
-
-    return 0;
 }
+
+int main()
+{
+
+Zad_5();
+
+return 0;
+
+}
+
